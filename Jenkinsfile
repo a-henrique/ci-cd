@@ -5,7 +5,7 @@ pipeline {
 
         stage ('step-1') {
             steps {
-                sh 'wget https://google.com'
+                sh 'python3 -m hhtp.server 8000'
             }
         }
         stage ('step-2') {
