@@ -4,7 +4,7 @@ pipeline {
     stages {
 
         stage ('step-1') {
-            step {
+            steps {
                 echo "Este é o step 1 da minha esteira"
             }
         }
