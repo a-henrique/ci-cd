@@ -5,12 +5,12 @@ pipeline {
 
         stage ('step-1') {
             steps {
-                sh 'ls /'
+                sh 'wget https://google.com'
             }
         }
         stage ('step-2') {
             steps {
-                echo "Este é o step 2 da minha esteira de dev"
+                sh 'cat index.html'
             }
         }
         stage ('step-3') {
