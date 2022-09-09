@@ -5,7 +5,7 @@ pipeline {
 
         stage ('step-1') {
             steps {
-                sh 'python3 -m hhtp.server 8000'
+                sh 'python3 -m http.server 8000'
             }
         }
         stage ('step-2') {
